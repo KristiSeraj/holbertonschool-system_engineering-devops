@@ -1,6 +1,7 @@
 # Holberton System Engineering DevOps
 
-**0x00-shell_basics**
+List of the projects:
+*[0x00-shell_basics](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/master/0x00-shell_basics)*
 *This directory has projects including scripts with basic commands of the shell (e.g. PWD, CD, LS, etc)*
 
 **0x01-shell_permissions**
