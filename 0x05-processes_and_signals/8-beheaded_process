@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Kill the process 7-highlander
+# shellcheck disable=SC2046
 kill -9 $(pgrep -f ./7-highlander)
