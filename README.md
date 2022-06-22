@@ -15,3 +15,5 @@ List of the projects:
 - [0x04.Shell - Loops, conditions and parsing](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x04-loops_conditions_and_parsing)
 
 - [0x05.Shell - Processes and signals](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x05-processes_and_signals)
+
+- [0x06.Shell - Regular Expressions](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x06-regular_expressions)
