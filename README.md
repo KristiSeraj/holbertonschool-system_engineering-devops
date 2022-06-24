@@ -17,3 +17,7 @@ List of the projects:
 - [0x05.Shell - Processes and signals](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x05-processes_and_signals)
 
 - [0x06.Shell - Regular Expressions](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x06-regular_expressions)
+
+- [0x07.Shell - Networking Basics #0](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x07-networking_basics)
+
+- [0x08.Shell - Networking Basics #1](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x08-networking_basics_2)
