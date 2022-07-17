@@ -16,8 +16,12 @@ List of the projects:
 
 - [0x05.Shell - Processes and signals](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x05-processes_and_signals)
 
-- [0x06.Shell - Regular Expressions](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x06-regular_expressions)
+- [0x06 - Regular Expressions](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x06-regular_expressions)
 
-- [0x07.Shell - Networking Basics #0](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x07-networking_basics)
+- [0x07 - Networking Basics #0](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x07-networking_basics)
 
-- [0x08.Shell - Networking Basics #1](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x08-networking_basics_2)
+- [0x08 - Networking Basics #1](https://github.com/KristiSeraj/holberton-system_engineering-devops/tree/main/0x08-networking_basics_2)
+
+- [0x09 - Web Infrastructure Design](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x09-web_infrastructure_design)
+
+- [Command line for the win](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/command_line_for_the_win)
