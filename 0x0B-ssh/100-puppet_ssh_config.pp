@@ -1,10 +1,15 @@
 # Puppet manifest that changes the config file for ssh
-file { 'Turn-off-passwd-auth':
+include stdlib
+file_line { 'Turn-off-passwd-auth':
+ensure  => 'present',
 path    => '/etc/ssh/ssh_config',
-content => 'PasswordAuthentication no'
+line 	=> 'PasswordAuthentication no',
+match	=> 'PasswordAuthentication yes'
 }
 
-#file { 'Declare-identity-file':
-#path    => '/etc/ssh/ssh_config',
-#content => 'IdentityFile ~/.ssh/school'
-#}
+file_line { 'Declare-identity-file':
+ensure  => 'present',
+path    => '/etc/ssh/ssh_config',
+line 	=> 'IdentityFile ~/.ssh/school',
+match	=> 'IdentityFile ~/.ssh/id_rsa'
+}
