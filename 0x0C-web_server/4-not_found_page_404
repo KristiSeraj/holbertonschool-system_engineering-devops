@@ -3,5 +3,5 @@
 sudo apt-get update
 sudo apt-get -y install nginx
 echo "Hello World!" > /var/www/html/index.html
-sudo sed -i '/server.name..;/a \        error_page 404 /custom_404.html;\n      location = /custom_404.html {\n         root /var/www/html;\n           internal;\n     }'  /etc/nginx/sites-enabled/default
+sudo sed -i '/server.name..;/a \        error_page 404 /error.html;\n   location = /error.html {\n              root /var/www/html;\n           internal;\n     }'  /etc/nginx/sites-enabled/default
 sudo service nginx restart
