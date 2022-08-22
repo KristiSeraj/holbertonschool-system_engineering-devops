@@ -12,5 +12,5 @@ sudo touch /var/www/html/error.html
 sudo chmod 666 /var/www/html/error.html
 sudo echo "Ceci n'est pas une page \n" > /var/www/html/error.html
 sudo sed -i '/server.name..;/a \        error_page 404 /error.html;\n   location = /error.html {\n              root /var/www/html;\n           internal;\n     }'  /etc/nginx/sites-enabled/default
-sudo sed -i '/server.name..;/a \	add_header X-Served-By $HOSTNAME;' /etc/nginx/sites-enabled/default
+sudo sed -i "/server.name..;/a \	add_header 'X-Served-By' '$HOSTNAME';" /etc/nginx/sites-enabled/default
 sudo service nginx start
