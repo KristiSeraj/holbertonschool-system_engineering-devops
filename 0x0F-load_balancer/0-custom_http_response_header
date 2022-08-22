@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install nginx
+# Configure Nginx so that its HTTP response contains a custom header
 sudo apt-get update
 sudo apt-get -y install nginx
 sudo chown -R $USER:$USER /var/www/html
@@ -7,10 +7,10 @@ sudo touch /var/www/html/index.html
 sudo chmod 666 /var/www/html/index.html
 sudo echo "Hello World!" > /var/www/html/index.html
 sudo chmod 666 /etc/nginx/sites-available/default
-sudo sed -i '/server.name..;/a \        rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+sudo sed -i '/server_name _;/a \        rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
 sudo touch /var/www/html/error.html
 sudo chmod 666 /var/www/html/error.html
 sudo echo "Ceci n'est pas une page \n" > /var/www/html/error.html
-sudo sed -i '/server.name..;/a \        error_page 404 /error.html;\n   location = /error.html {\n              root /var/www/html;\n           internal;\n     }'  /etc/nginx/sites-available/default
-sudo sed -i '/server.name..;/a \	add_header X-Served-By $HOSTNAME;' /etc/nginx/sites-available/default
-sudo service nginx start
+sudo sed -i '/server_name _;/a \        error_page 404 /error.html;\n	     location = /error.html {\n              root /var/www/html;\n           internal;\n     }'  /etc/nginx/sites-available/default
+sudo sed -i "/server_name _;/a \	add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default
+sudo service nginx restart
