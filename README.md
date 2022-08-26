@@ -24,4 +24,18 @@ List of the projects:
 
 - [0x09 - Web Infrastructure Design](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x09-web_infrastructure_design)
 
+- [0x0A - Configuration management](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x0A-configuration_management)
+
+- [0x0B - SSH](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x0B-ssh)
+
+- [0x0C - Web Server](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x0C-web_server)
+
+- [0x0D - Web stack debugging #0](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x0D-web_stack_debugging_0)
+
+- [0x0E - Web stack debugging #1](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x0E-web_stack_debugging_1)
+
+- [0x0F - Load Balancer](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x0F-load_balancer)
+
+- [0x10 - HTTPS SSL](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x10-https_ssl)
+
 - [Command line for the win](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/command_line_for_the_win)
