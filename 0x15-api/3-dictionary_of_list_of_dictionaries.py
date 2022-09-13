@@ -6,11 +6,10 @@ from sys import argv
 
 
 if __name__ == "__main__":
-    url = "https://jsonplaceholder.typicode.com"
-    usr = requests.get(f"{url}/users")
-    todo_url = requests.get(f"{url}/todos")
-    employee_data = usr.json()
-    todos_of_employee = todo_url.json()
+    usr = "https://jsonplaceholder.typicode.com/users"
+    todo_url = "https://jsonplaceholder.typicode.com/todos"
+    employee_data = requests.get(usr).json()
+    todos_of_employee = requests.get(todo_url).json()
     data_json = {}
     for user in employee_data:
         new_data = []
