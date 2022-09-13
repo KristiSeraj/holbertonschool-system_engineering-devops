@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """Importing requests module"""
-import csv
 import json
 import requests
 from sys import argv
