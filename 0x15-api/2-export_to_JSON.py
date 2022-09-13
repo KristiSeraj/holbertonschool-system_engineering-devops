@@ -20,5 +20,5 @@ if __name__ == "__main__":
             "username": employee_username['username']
             })
     data_json = {argv[1]: new_data}
-    with open(f"{argv[1]}.json", 'w') as f:
+    with open(f'{argv[1]}.json', 'w') as f:
         json.dump(data_json, f)
