@@ -6,7 +6,8 @@ import requests
 def recurse(subreddit, hot_list=[], after=""):
     """Returns a list containing the title of all host articles"""
 
-    url = "https://www.reddit.com/r/{}/hot.json?after={}".format(subreddit, after)
+    url = "https://www.reddit.com/r/{}/hot.json?after={}".format(subreddit,
+                                                                 after)
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(url=url, headers=headers)
     if response.status_code == 404:
