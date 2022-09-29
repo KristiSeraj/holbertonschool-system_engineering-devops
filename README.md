@@ -38,4 +38,20 @@ List of the projects:
 
 - [0x10 - HTTPS SSL](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x10-https_ssl)
 
+- [0x11 - What happens when you type google.com on your browser and press Enter](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter)
+
+- [0x12 - Web stack debugging #2](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x12-web_stack_debugging_2)
+
+- [0x13 - Firewall](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x13-firewall)
+
+- [0x14 - MySQL](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x14-mysql)
+
+- [0x15 - API](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x15-api)
+
+- [0x16 - API Advanced](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x16-api_advanced)
+
+- [0x17 - Web stack debugging #3](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x17-web_stack_debugging_3)
+
+- [0x18 - Webstack monitoring](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/0x18-webstack_monitoring)
+
 - [Command line for the win](https://github.com/KristiSeraj/holbertonschool-system_engineering-devops/tree/main/command_line_for_the_win)
